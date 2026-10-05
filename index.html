@@ -24,15 +24,15 @@
 <main class="page">
 <header class="masthead"><div class="brand"><img src="https://cdn.prod.website-files.com/6719e3902a71ea8154ba371d/6996a2c470a01e3f32ffa080_M30.png" alt="MRANTI 30 Years"><div class="brand-meta">Utilities & ESG Intelligence<br>Resource Efficiency Review</div></div><div class="period"><label for="monthSelect">Reporting month</label><select id="monthSelect"></select></div></header><div class="rule"></div>
 <section class="hero"><div><div class="eyebrow">MRANTI UTILITIES & ESG BRIEF · MONTHLY REVIEW</div><h1 id="heroTitle"></h1><div class="hero-summary" id="heroSummary"></div><div class="hero-meta" id="heroMeta"></div></div><div class="hero-side" id="heroSide"></div></section><div class="rule"></div>
-<section class="big"><div><div class="eyebrow">WHERE ACTION IS CONCENTRATED</div><div class="number" id="focusNumber"></div><div class="label">OF ELECTRICITY USE SITS IN THE TWO LARGEST ACCOUNTS</div><div class="note" id="focusNote"></div></div><div class="insight" id="focusInsight"></div></section><div class="rule"></div>
+<section class="big"><div><div class="eyebrow">WHERE ACTION IS CONCENTRATED</div><div class="number" id="focusNumber"></div><div class="label" id="focusLabel"></div><div class="note" id="focusNote"></div></div><div class="insight" id="focusInsight"></div></section><div class="rule"></div>
 <section class="chapter"><div class="chapter-head"><div class="eyebrow">01 · ESG OPERATING SNAPSHOT</div><h2 class="chapter-title" id="snapshotTitle"></h2><p class="chapter-sub">Resource efficiency, avoidable cost and service continuity — the utility signals that can lead directly to management action.</p></div><div class="signals" id="signals"></div></section><div class="rule"></div>
-<section class="chapter"><div class="chapter-head"><div class="eyebrow">02 · ENERGY EFFICIENCY</div><h2 class="chapter-title" id="energyTitle"></h2><p class="chapter-sub">Focus on how demand is moving, where consumption is concentrated and which premises warrant intervention.</p></div><div class="split"><figure class="figure blue"><div class="fig-title">Electricity consumption — complete account coverage</div><div class="line-chart" id="energyTrend"></div><figcaption class="fig-caption" id="energyTrendCaption"></figcaption></figure><div class="copy" id="energyCopy"></div></div><div class="split reverse" style="margin-top:38px"><div class="copy" id="energyPriorityCopy"></div><figure class="figure"><div class="fig-title">Priority electricity accounts — current usage and month-on-month movement</div><div class="priority-list" id="energyPriority"></div><figcaption class="fig-caption">FIG. 02 — HIGH-IMPACT ELECTRICITY ACCOUNTS FOR MANAGEMENT REVIEW</figcaption></figure></div></section><div class="rule"></div>
+<section class="chapter"><div class="chapter-head"><div class="eyebrow">02 · ENERGY EFFICIENCY</div><h2 class="chapter-title" id="energyTitle"></h2><p class="chapter-sub">Focus on how electricity consumption is moving, where use is concentrated and which premises warrant review.</p></div><div class="split"><figure class="figure blue"><div class="fig-title">Electricity consumption — complete account coverage</div><div class="line-chart" id="energyTrend"></div><figcaption class="fig-caption" id="energyTrendCaption"></figcaption></figure><div class="copy" id="energyCopy"></div></div><div class="split reverse" style="margin-top:38px"><div class="copy" id="energyPriorityCopy"></div><figure class="figure"><div class="fig-title">Priority electricity accounts — current usage and month-on-month movement</div><div class="priority-list" id="energyPriority"></div><figcaption class="fig-caption">FIG. 02 — HIGH-IMPACT ELECTRICITY ACCOUNTS FOR MANAGEMENT REVIEW</figcaption></figure></div></section><div class="rule"></div>
 <section class="chapter"><div class="chapter-head"><div class="eyebrow">03 · WATER STEWARDSHIP</div><h2 class="chapter-title" id="waterTitle"></h2><p class="chapter-sub">Usage movement and account concentration reveal where water-efficiency review will have the greatest effect.</p></div><div class="split"><figure class="figure cyan"><div class="fig-title">Water consumption trend</div><div class="line-chart" id="waterTrend"></div><figcaption class="fig-caption" id="waterTrendCaption"></figcaption></figure><div class="copy" id="waterCopy"></div></div><div class="water-grid" id="waterAccounts"></div></section><div class="rule"></div>
-<section class="chapter"><div class="chapter-head"><div class="eyebrow">04 · CONTROLLABLE COST</div><h2 class="chapter-title" id="costTitle"></h2><p class="chapter-sub">Separate costs management can eliminate from tariff-driven adjustments that should be monitored independently.</p></div><div class="split"><figure class="figure"><div class="cost-split" id="costSplit"></div><figcaption class="fig-caption">FIG. 04 — CONTROLLABLE PENALTY VS EXTERNAL COST ADJUSTMENT</figcaption></figure><div class="copy" id="costCopy"></div></div><div class="split reverse" style="margin-top:38px"><div class="copy" id="lateTrendCopy"></div><figure class="figure blue"><div class="fig-title">Late-payment surcharge trend</div><div class="trend-bars" id="lateTrend"></div><figcaption class="fig-caption" id="lateTrendCaption"></figcaption></figure></div></section><div class="rule"></div>
-<section class="chapter"><div class="chapter-head"><div class="eyebrow">05 · SERVICE CONTINUITY & GOVERNANCE</div><h2 class="chapter-title" id="govTitle"></h2><p class="chapter-sub">Prioritise active notices by amount and pay-before date so preventable service interruption does not become an operational issue.</p></div><div class="split"><figure class="figure"><div class="fig-title">Largest active TNB disconnection notices</div><table class="notice-table"><thead><tr><th>Premise</th><th>Notice amount</th><th>Pay before</th></tr></thead><tbody id="noticeBody"></tbody></table><figcaption class="fig-caption">FIG. 06 — ACTIVE DISCONNECTION NOTICES RANKED BY AMOUNT</figcaption></figure><div class="copy" id="govCopy"></div></div></section><div class="rule"></div>
+<section class="chapter"><div class="chapter-head"><div class="eyebrow">04 · BILL COMPONENTS & PAYMENT CONTROL</div><h2 class="chapter-title" id="costTitle"></h2><p class="chapter-sub">Track late-payment surcharge separately from AFA so payment-related charges and tariff adjustments are not conflated.</p></div><div class="split"><figure class="figure"><div class="cost-split" id="costSplit"></div><figcaption class="fig-caption">FIG. 04 — CONTROLLABLE PENALTY VS EXTERNAL COST ADJUSTMENT</figcaption></figure><div class="copy" id="costCopy"></div></div><div class="split reverse" style="margin-top:38px"><div class="copy" id="lateTrendCopy"></div><figure class="figure blue"><div class="fig-title">Late-payment surcharge trend</div><div class="trend-bars" id="lateTrend"></div><figcaption class="fig-caption" id="lateTrendCaption"></figcaption></figure></div></section><div class="rule"></div>
+<section class="chapter"><div class="chapter-head"><div class="eyebrow">05 · SERVICE CONTINUITY & GOVERNANCE</div><h2 class="chapter-title" id="govTitle"></h2><p class="chapter-sub">Review disconnection notices recorded on the selected-month TNB bills by amount and pay-before date. Historical bill records do not confirm whether a notice remains outstanding today.</p></div><div class="split"><figure class="figure"><div class="fig-title">Largest TNB disconnection notices recorded</div><table class="notice-table"><thead><tr><th>Premise</th><th>Notice amount</th><th>Pay before</th></tr></thead><tbody id="noticeBody"></tbody></table><figcaption class="fig-caption">FIG. 06 — DISCONNECTION NOTICES RECORDED ON SELECTED-MONTH TNB BILLS</figcaption></figure><div class="copy" id="govCopy"></div></div></section><div class="rule"></div>
 <section class="readout"><div class="eyebrow">MANAGEMENT READOUT</div><h2 id="readoutTitle"></h2><div class="readout-grid"><div class="quote" id="readoutQuote"></div><div class="readout-copy" id="readoutCopy"></div></div></section>
-<section class="chapter" style="padding-bottom:20px"><div class="chapter-head"><div class="eyebrow">EXECUTIVE ACTIONS</div><h2 class="chapter-title">What the utility data asks management to do next.</h2></div><div class="actions" id="actions"></div></section>
-<footer class="footer"><span><strong>Source:</strong> MRANTI TNB Bill (Bill Date) & SYABAS Water Bill Database</span><span id="footerPeriod"></span></footer>
+<section class="chapter" style="padding-bottom:20px"><div class="chapter-head"><div class="eyebrow">EXECUTIVE ACTIONS</div><h2 class="chapter-title">Management actions supported by the selected-month data.</h2></div><div class="actions" id="actions"></div></section>
+<footer class="footer"><span><strong>Source:</strong> MRANTI TNB Bill (grouped by Bill Date) & SYABAS Water Bill Database (grouped by Billing End Date)</span><span id="footerPeriod"></span></footer>
 </main>
 
 <script>
@@ -91,14 +91,11 @@ function reportRange(keys){
   const fy=first.split(' ')[1],ly=last.split(' ')[1];
   return fy===ly?monthName(first)+'–'+monthName(last)+' '+fy:first+'–'+last;
 }
-function governanceHeadline(e){
-  if(e.noticeAmount>=100000){
-    return 'Active notice exposure is '+money(e.noticeAmount)+' across '+e.activeNoticeCount+' accounts.';
+function governanceHeadline(e,label){
+  if(e.noticeAmount>0){
+    return 'TNB bills recorded '+money(e.noticeAmount)+' in disconnection notice amounts across '+e.activeNoticeCount+' accounts.';
   }
-  if(e.activeNoticeCount<=3 && e.noticeAmount<10000){
-    return 'Active notice exposure is limited to '+money(e.noticeAmount)+' across '+e.activeNoticeCount+' accounts.';
-  }
-  return 'Late-payment surcharge is '+money2(e.late)+'; active notices total '+money(e.noticeAmount)+'.';
+  return 'No disconnection notice amount was recorded on the selected-month TNB bills.';
 }
 function svgLine(values,labels,water,formatter){
   const W=760,H=245,p={l:46,r:28,t:24,b:38};
@@ -141,14 +138,14 @@ function render(month){
   const dom=w.accounts.find(x=>x.name==='Domestic CNC');
   const mainShare=waterMain&&w.usage?waterMain.usage/w.usage*100:0;
 
-  const energySentence=movementSentence('Electricity demand',ch.electricityUsage,d.label);
-  $('heroTitle').innerHTML=energySentence+' <em>'+governanceHeadline(e)+'</em>';
+  const energySentence=movementSentence('Electricity consumption',ch.electricityUsage,d.label);
+  $('heroTitle').innerHTML=energySentence+' <em>'+governanceHeadline(e,d.label)+'</em>';
 
   let heroSummary='';
   if(ch.electricityUsage==null){
-    heroSummary=d.label+' is the first complete <strong style="color:var(--blue)">51-account</strong> TNB Bill Date reporting month. Electricity consumption was <strong style="color:var(--blue)">'+(e.usage/1e6).toFixed(2)+' GWh</strong> and electricity spend was <strong style="color:var(--blue)">'+money2(e.spend)+'</strong>.';
+    heroSummary=d.label+' is the first complete <strong style="color:var(--blue)">51-account</strong> TNB Bill Date reporting month. Electricity consumption was <strong style="color:var(--blue)">'+(e.usage/1e6).toFixed(2)+' GWh</strong> and TNB Current Amount Due was <strong style="color:var(--blue)">'+money2(e.spend)+'</strong>.';
   }else{
-    heroSummary=d.label+' electricity consumption was <strong style="color:var(--blue)">'+(e.usage/1e6).toFixed(2)+' GWh</strong> (<strong style="color:var(--blue)">'+signedPct(ch.electricityUsage)+'</strong> vs prior month), while electricity spend was <strong style="color:var(--blue)">'+money2(e.spend)+'</strong> ('+signedPct(ch.electricitySpend)+').';
+    heroSummary=d.label+' electricity consumption was <strong style="color:var(--blue)">'+(e.usage/1e6).toFixed(2)+' GWh</strong> (<strong style="color:var(--blue)">'+signedPct(ch.electricityUsage)+'</strong> vs prior month), while TNB Current Amount Due was <strong style="color:var(--blue)">'+money2(e.spend)+'</strong> ('+signedPct(ch.electricitySpend)+').';
   }
   if(hasCurrentWater){
     heroSummary+=' Water use was <strong style="color:var(--blue)">'+fmt(w.usage)+' m³</strong> ('+signedPct(wch.waterUsage)+' vs prior month).';
@@ -163,13 +160,14 @@ function render(month){
   $('heroSide').innerHTML=[
     ['Energy use',(e.usage/1e6).toFixed(2)+' GWh',ch.electricityUsage==null?'First complete 51-account month':signedPct(ch.electricityUsage)+' vs prior month',ch.electricityUsage==null?'':(ch.electricityUsage>0?'up':'down')],
     ['Water use',fmt(w.usage)+' m³',hasCurrentWater?(signedPct(wch.waterUsage)+' vs prior month'):'Latest available · '+waterLabel,hasCurrentWater?(wch.waterUsage>0?'up':'down'):''],
-    ['Avoidable cost',money2(e.late),ch.late==null?'Selected month':signedPct(ch.late)+' vs prior month',ch.late==null?'':(ch.late>0?'up':'down')],
-    ['Active notice exposure',money(e.noticeAmount),e.activeNoticeCount+' of '+e.accounts+' TNB accounts','']
+    ['Late-payment surcharge',money2(e.late),ch.late==null?'Selected month':signedPct(ch.late)+' vs prior month',ch.late==null?'':(ch.late>0?'up':'down')],
+    ['Notice amount recorded',money(e.noticeAmount),e.activeNoticeCount+' of '+e.accounts+' TNB accounts had a notice','']
   ].map(x=>'<div class="hero-stat"><div class="label">'+x[0]+'</div><div class="value">'+x[1]+'</div><div class="note '+x[3]+'">'+x[2]+'</div></div>').join('');
 
   $('focusNumber').textContent=pct(top2share);
-  $('focusNote').textContent=shortLabel(top2[0].display)+' and '+shortLabel(top2[1].display)+'.';
-  $('focusInsight').innerHTML='The two largest electricity accounts used <strong>'+fmt(top2[0].usage+top2[1].usage)+' kWh</strong> in '+monthName(d.label)+', equal to <strong>'+pct(top2share)+'</strong> of recorded electricity consumption. Efficiency work on these two load centres therefore addresses the largest share of demand first.';
+  $('focusLabel').textContent='OF '+monthName(d.label).toUpperCase()+' ELECTRICITY CONSUMPTION CAME FROM THE TWO LARGEST ACCOUNTS';
+  $('focusNote').textContent=shortLabel(top2[0].display)+' — '+fmt(top2[0].usage)+' kWh · '+shortLabel(top2[1].display)+' — '+fmt(top2[1].usage)+' kWh';
+  $('focusInsight').innerHTML='The two largest electricity accounts used <strong>'+fmt(top2[0].usage+top2[1].usage)+' kWh</strong> in '+monthName(d.label)+', equal to <strong>'+pct(top2share)+'</strong> of recorded electricity consumption. These two accounts are the clearest starting point for electricity-efficiency review because they represent the largest share of recorded consumption.';
 
   const waterSnapshot=hasCurrentWater
     ?(wch.waterUsage==null?'Water use was '+fmt(w.usage)+' m³.':(wch.waterUsage>3?'Water use increased '+absPct(wch.waterUsage)+'.':wch.waterUsage<-3?'Water use decreased '+absPct(wch.waterUsage)+'.':'Water use was broadly stable ('+signedPct(wch.waterUsage)+').'))
@@ -177,20 +175,20 @@ function render(month){
   $('snapshotTitle').textContent=(ch.electricityUsage==null
     ?d.label+' establishes the first complete TNB Bill Date electricity baseline. '
     :(ch.electricityUsage>3?'Electricity use increased '+absPct(ch.electricityUsage)+'. ':ch.electricityUsage<-3?'Electricity use decreased '+absPct(ch.electricityUsage)+'. ':'Electricity use was broadly stable ('+signedPct(ch.electricityUsage)+'). '))
-    +governanceHeadline(e)+' '+waterSnapshot;
+    +governanceHeadline(e,d.label)+' '+waterSnapshot;
 
   $('signals').innerHTML=(hasCurrentWater
     ?[
-      ['Total utility spend',money(d.totalSpend),'Electricity + '+d.label+' water bill'],
-      ['Electricity unit cost','RM'+e.unitCost.toFixed(2),'per kWh'],
-      ['Water unit cost','RM'+w.unitCost.toFixed(2),'per m³'],
-      ['Water balance',balanceText(w.outstanding),'Selected water period']
+      ['Combined current bill amount',money(d.totalSpend),'TNB Current Amount Due + water Current Bill'],
+      ['TNB amount / kWh','RM'+e.unitCost.toFixed(2),'Current Amount Due ÷ recorded kWh'],
+      ['Water bill / m³','RM'+w.unitCost.toFixed(2),'Current Bill ÷ billed m³'],
+      ['Water outstanding balance',balanceText(w.outstanding),'Selected water period']
     ]
     :[
-      ['Electricity spend',money(e.spend),d.label],
-      ['Electricity unit cost','RM'+e.unitCost.toFixed(2),'per kWh'],
-      ['Water unit cost','RM'+w.unitCost.toFixed(2),'Latest: '+waterLabel],
-      ['Water balance',balanceText(w.outstanding),'Latest: '+waterLabel]
+      ['TNB Current Amount Due',money(e.spend),d.label],
+      ['TNB amount / kWh','RM'+e.unitCost.toFixed(2),'Current Amount Due ÷ recorded kWh'],
+      ['Water bill / m³','RM'+w.unitCost.toFixed(2),'Current Bill ÷ billed m³ · Latest: '+waterLabel],
+      ['Water outstanding balance',balanceText(w.outstanding),'Latest: '+waterLabel]
     ]).map(x=>'<div class="signal"><div class="slabel">'+x[0]+'</div><div class="svalue">'+x[1]+'</div><div class="snote">'+x[2]+'</div></div>').join('');
 
   const energyKeys=DATA.monthOrder.slice(0,idx+1);
@@ -207,7 +205,7 @@ function render(month){
   $('energyCopy').innerHTML=
     '<p class="lead">The energy profile is concentrated enough to prioritise action by load.</p>'+
     '<p>'+shortLabel(top2[0].display)+' used <strong>'+fmt(top2[0].usage)+' kWh</strong>, while '+shortLabel(top2[1].display)+' used <strong>'+fmt(top2[1].usage)+' kWh</strong>. Together they account for <strong>'+pct(top2share)+'</strong> of '+monthName(d.label)+' electricity consumption.</p>'+
-    '<p>Peak recorded demand was <strong>'+fmt(e.peakDemand)+' kW</strong>. The highest-load premises remain the first place to test operating schedules, equipment efficiency and demand-management measures.</p>';
+    '<p>The highest single-account <strong>Max Demand</strong> value recorded on the selected-month TNB bills was <strong>'+fmt(e.peakDemand)+' kW</strong>. The highest-consumption accounts are the first candidates for efficiency review because they represent the largest share of recorded electricity use.</p>';
 
   const priorities=e.priority.slice(0,6);
   $('energyPriority').innerHTML=priorities.map(x=>{
@@ -234,9 +232,9 @@ function render(month){
   $('waterTrendCaption').textContent='FIG. 03 — MONTHLY WATER CONSUMPTION · '+reportRange(waterKeys).toUpperCase();
 
   if(hasCurrentWater){
-    $('waterTitle').textContent=(wch.waterUsage>3?'Water use increased '+absPct(wch.waterUsage):wch.waterUsage<-3?'Water use decreased '+absPct(wch.waterUsage):'Water use was broadly stable at '+signedPct(wch.waterUsage))+' month on month; Main Intake represents '+pct(mainShare)+' of recorded demand.';
+    $('waterTitle').textContent=(wch.waterUsage>3?'Water use increased '+absPct(wch.waterUsage):wch.waterUsage<-3?'Water use decreased '+absPct(wch.waterUsage):'Water use was broadly stable at '+signedPct(wch.waterUsage))+' month on month; Main Intake represents '+pct(mainShare)+' of recorded water use.';
   }else{
-    $('waterTitle').textContent='Latest water reporting is '+waterLabel+': '+fmt(w.usage)+' m³, with Main Intake representing '+pct(mainShare)+' of recorded demand.';
+    $('waterTitle').textContent='Latest water reporting is '+waterLabel+': '+fmt(w.usage)+' m³, with Main Intake representing '+pct(mainShare)+' of recorded water use.';
   }
 
   $('waterCopy').innerHTML=
@@ -250,11 +248,11 @@ function render(month){
     '<div class="water-card"><div class="name">'+a.name+'</div><div class="num">'+fmt(a.usage)+' m³</div><div class="meta">'+money(a.bill)+' bill · '+(hasCurrentWater?'selected period':'latest '+waterLabel)+(a.usage_mom==null?'':' · '+signedPct(a.usage_mom)+' vs prior water month')+'</div></div>'
   ).join('');
 
-  const afaLabel=e.afa>=0?'External adjustment · AFA charge':'External adjustment · AFA credit';
-  $('costTitle').textContent='Late-payment surcharge is '+money2(e.late)+'; '+(e.afa>=0?'AFA adds ':'AFA offsets ')+money2(e.afa)+' in the selected month.';
+  const afaLabel=e.afa>=0?'AFA on TNB bills · charge':'AFA on TNB bills · credit';
+  $('costTitle').textContent='Late-payment surcharge recorded: '+money2(e.late)+'; AFA recorded: '+(e.afa>=0?'charge ':'credit ')+money2(e.afa)+'.';
   $('costSplit').innerHTML=
-    '<div class="cost-box controllable"><div class="kicker">Controllable · avoidable</div><div class="amount">'+money2(e.late)+'</div><div class="desc">Late-payment surcharge recorded for '+d.label+'.</div></div>'+
-    '<div class="cost-box"><div class="kicker">'+afaLabel+'</div><div class="amount">'+money2(e.afa)+'</div><div class="desc">'+(e.afa>=0?'Positive AFA charge recorded separately from operating efficiency.':'Negative AFA value represents a credit / offset rather than an operating-efficiency saving.')+'</div></div>';
+    '<div class="cost-box controllable"><div class="kicker">Late-payment surcharge</div><div class="amount">'+money2(e.late)+'</div><div class="desc">Late-payment surcharge shown on the selected-month TNB bills.</div></div>'+
+    '<div class="cost-box"><div class="kicker">'+afaLabel+'</div><div class="amount">'+money2(e.afa)+'</div><div class="desc">'+(e.afa>=0?'Positive AFA value recorded on the selected-month TNB bills.':'Negative AFA value recorded on the selected-month TNB bills.')+'</div></div>';
 
   const monthsToDate=DATA.monthOrder.slice(0,idx+1);
   const lateToDate=monthsToDate.reduce((s,m)=>s+DATA.months[m].electricity.late,0);
@@ -270,7 +268,7 @@ function render(month){
   }
   $('costCopy').innerHTML=
     '<p class="lead">'+lateSentence+'</p>'+
-    '<p>'+afaText(e.afa)+' is shown separately because it is tariff / adjustment exposure rather than an avoidable payment-process cost.</p>'+
+    '<p>'+afaText(e.afa)+' is shown separately because AFA and late-payment surcharge are different bill components.</p>'+
     '<p>Across <strong>'+reportRange(monthsToDate)+'</strong>, recorded late-payment surcharge totals <strong>'+money2(lateToDate)+'</strong>.</p>';
 
   const maxLate=Math.max(...monthsToDate.map(m=>DATA.months[m].electricity.late));
@@ -281,11 +279,11 @@ function render(month){
   $('lateTrendCaption').textContent='FIG. 05 — MONTHLY LATE-PAYMENT SURCHARGES · '+reportRange(monthsToDate).toUpperCase();
 
   $('lateTrendCopy').innerHTML=
-    '<p class="lead">Late-payment surcharge is a controllable cost and is tracked independently from consumption and AFA.</p>'+
-    '<p>The selected month records <strong>'+money2(e.late)+'</strong>; cumulative surcharge from the first complete TNB Bill Date month through '+monthName(d.label)+' is <strong>'+money2(lateToDate)+'</strong>.</p>'+
-    '<div class="callout red">Control target: eliminate recurring surcharge through invoice routing, approval timing and payment ownership.</div>';
+    '<p class="lead">Late-payment surcharge is tracked separately from electricity consumption and AFA.</p>'+
+    '<p>The selected month records <strong>'+money2(e.late)+'</strong>; cumulative recorded surcharge from the first complete TNB Bill Date month through '+monthName(d.label)+' is <strong>'+money2(lateToDate)+'</strong>.</p>'+
+    '<div class="callout red">Management review: confirm the cause of recurring surcharge with the relevant payment owner before assigning corrective action.</div>';
 
-  $('govTitle').textContent=e.activeNoticeCount+' electricity accounts carry active disconnection notices, representing '+money(e.noticeAmount)+' of exposure.';
+  $('govTitle').textContent=e.activeNoticeCount+' electricity accounts had disconnection notice amounts recorded on '+monthName(d.label)+' TNB bills, totalling '+money(e.noticeAmount)+'.';
   $('noticeBody').innerHTML=e.topNotice.slice(0,7).map(x=>
     '<tr><td>'+shortLabel(x.display)+'</td><td class="amount">'+money2(x.notice)+'</td><td>'+(x.pay_before||'—')+'</td></tr>'
   ).join('');
@@ -301,44 +299,37 @@ function render(month){
   }
   $('govCopy').innerHTML=
     (topNotice
-      ?'<p class="lead">The largest active TNB notice is <strong>'+money2(topNotice.notice)+'</strong>, equal to <strong>'+pct(noticeShare)+'</strong> of electricity notice exposure.</p><p>'+shortLabel(topNotice.display)+' carries that notice'+(topNotice.pay_before?', with a pay-before date of <strong>'+topNotice.pay_before+'</strong>.':'.')+'</p>'
-      :'<p class="lead">There are no active TNB disconnection notices in the selected month.</p>')+
+      ?'<p class="lead">The largest disconnection notice amount recorded on the selected-month TNB bills was <strong>'+money2(topNotice.notice)+'</strong>, equal to <strong>'+pct(noticeShare)+'</strong> of that month’s recorded notice amount.</p><p>'+shortLabel(topNotice.display)+' carries that notice'+(topNotice.pay_before?', with a pay-before date of <strong>'+topNotice.pay_before+'</strong>.':'.')+'</p>'
+      :'<p class="lead">No disconnection notice amount was recorded on the selected-month TNB bills.</p>')+
     '<p>'+waterBalanceSentence+'</p>'+
-    '<div class="callout red">Action: manage electricity notices by value and pay-before date, while tracking water balances separately.</div>';
+    '<div class="callout red">Historical notice records should be reviewed by value and pay-before date; confirm current payment status separately before treating any notice as still outstanding.</div>';
 
-  let readoutSignal='';
-  if(e.noticeAmount>=100000){
-    readoutSignal='Active notice exposure is the immediate governance priority.';
-  }else if(e.activeNoticeCount<=3&&e.noticeAmount<10000){
-    readoutSignal='Notice exposure is low; payment discipline should keep it there.';
-  }else{
-    readoutSignal='Payment control remains an actionable governance issue.';
-  }
+  let readoutSignal=e.noticeAmount>0
+    ?'TNB bills recorded '+money(e.noticeAmount)+' in disconnection notice amounts across '+e.activeNoticeCount+' accounts.'
+    :'No disconnection notice amount was recorded on the selected-month TNB bills.';
   const readoutEnergy=ch.electricityUsage==null
     ?'March establishes the first complete electricity baseline.'
     :(ch.electricityUsage>3?'Electricity use increased '+absPct(ch.electricityUsage)+'.':ch.electricityUsage<-3?'Electricity use decreased '+absPct(ch.electricityUsage)+'.':'Electricity use was broadly stable ('+signedPct(ch.electricityUsage)+').');
   $('readoutTitle').innerHTML=readoutEnergy+' <em>'+readoutSignal+'</em>';
-  $('readoutQuote').textContent='“The value of the utility dataset is to direct efficiency work to the largest loads and surface payment exposures before they become service-continuity issues.”';
+  $('readoutQuote').textContent='Management interpretation: concentrate efficiency review on the largest electricity users, and use surcharge and disconnection-notice fields as payment-control indicators. Historical notice records require current-status confirmation.';
   $('readoutCopy').innerHTML=
     '<p><strong>Electricity:</strong> '+(ch.electricityUsage==null?'first complete Bill Date baseline at '+(e.usage/1e6).toFixed(2)+' GWh.':signedPct(ch.electricityUsage)+' month on month to '+(e.usage/1e6).toFixed(2)+' GWh.')+' The two largest accounts represent '+pct(top2share)+' of use.</p>'+
     '<p><strong>Water:</strong> '+(hasCurrentWater
       ?signedPct(wch.waterUsage)+' month on month to '+fmt(w.usage)+' m³.'
       :'latest available '+waterLabel+' use is '+fmt(w.usage)+' m³; no newer water month is used in the '+d.label+' view.')+'</p>'+
-    '<p><strong>Governance:</strong> late-payment surcharge is '+money2(e.late)+'. Active TNB notices total '+money(e.noticeAmount)+' across '+e.activeNoticeCount+' accounts.</p>';
+    '<p><strong>Governance:</strong> late-payment surcharge recorded on the selected-month TNB bills is '+money2(e.late)+'. Those bills recorded '+money(e.noticeAmount)+' in disconnection notice amounts across '+e.activeNoticeCount+' accounts. This does not establish that the notices remain outstanding today.</p>';
 
   const waterAction=hasCurrentWater
     ?(wch.waterUsage>3
       ?'Investigate the '+absPct(wch.waterUsage)+' month-on-month increase, beginning with Main Intake at '+pct(mainShare)+' of water use.'
       :wch.waterUsage<-3
         ?'Protect the '+absPct(wch.waterUsage)+' month-on-month reduction and keep Main Intake under review.'
-        :'Maintain the current water profile and continue monitoring Main Intake, which represents '+pct(mainShare)+' of use.')
+        :'Maintain the current water profile and continue monitoring Main Intake, which represents '+pct(mainShare)+' of recorded water use.')
     :'Use '+waterLabel+' as the latest water baseline and refresh this section when the next complete water month is available.';
 
-  const governanceAction=e.noticeAmount>=100000
-    ?'Prioritise '+e.activeNoticeCount+' active notices totalling '+money(e.noticeAmount)+', starting with the highest-value pay-before dates.'
-    :e.activeNoticeCount>0
-      ?'Keep the '+e.activeNoticeCount+' active notices totalling '+money(e.noticeAmount)+' under payment control and prevent escalation.'
-      :'Maintain zero active disconnection notices and prevent late-payment recurrence.';
+  const governanceAction=e.noticeAmount>0
+    ?'Review '+e.activeNoticeCount+' disconnection notices recorded on the selected-month TNB bills, totalling '+money(e.noticeAmount)+'. Confirm current payment status separately before treating them as outstanding.'
+    :'No disconnection notice amount was recorded on the selected-month TNB bills.';
 
   $('actions').innerHTML=
     '<div class="action"><div class="ak">EFFICIENCY</div><h3>Concentrated energy demand</h3><p>Target the two highest-load premises first; they represent '+pct(top2share)+' of '+monthName(d.label)+' electricity consumption.</p></div>'+
